@@ -276,7 +276,7 @@ class RazerOrbweaverChroma(_RazerDeviceBrightnessSuspend):
     USB_PID = 0x0207
     DEDICATED_MACRO_KEYS = True
     HAS_MATRIX = True
-    MATRIX_DIMS = [5, 23]
+    MATRIX_DIMS = [5, 22]
     METHODS = ['get_device_type_keypad',
                'set_key_row',
                'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
